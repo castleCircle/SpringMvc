@@ -11,6 +11,6 @@ public class SimpleController implements org.springframework.web.servlet.mvc.Con
 
     @Override
     public ModelAndView handleRequest(HttpServletRequest request, HttpServletResponse response) throws Exception {
-        return new ModelAndView("/WEB-INF/simple.jsp");
+        return new ModelAndView("simple");
     }
 }
